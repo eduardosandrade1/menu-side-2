@@ -1,3 +1,8 @@
+:root {
+    --duration-menu:.7s;
+    --bg-menu-circle: #000;
+}
+
 html {
 
     box-sizing: border-box;
@@ -40,15 +45,19 @@ html *::after {
     justify-content: center;
     align-items: center;
 
+    color: aliceblue;
+
 }
 
 #menu-side > .item__menu__side.active {
+
+    transition: var(--duration-menu);
 
     width: 100px;
     height: 100px;
 
     border-radius: 50%;
 
-    background-color: #555;
+    background-color: var(--bg-menu-circle);
 
 }
