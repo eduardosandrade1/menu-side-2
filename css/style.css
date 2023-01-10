@@ -31,11 +31,10 @@ html *::after {
 
 }
 
-#menu-side > a{
+#menu-side > .item__menu__side{
 
     width: 50px;
     height: 50px;
-
 
     display: flex;
     justify-content: center;
@@ -43,7 +42,7 @@ html *::after {
 
 }
 
-#menu-side > a.active {
+#menu-side > .item__menu__side.active {
 
     width: 100px;
     height: 100px;
